@@ -1,8 +1,8 @@
-function showDetails(exerciseId) {
-    const details = document.getElementById(exerciseId);
-    if (details.style.display === "none" || details.style.display === "") {
-        details.style.display = "block";
+function toggleDetails(id) {
+    const details = document.getElementById(id);
+    if (details.style.display === 'block') {
+        details.style.display = 'none';
     } else {
-        details.style.display = "none";
+        details.style.display = 'block';
     }
 }
